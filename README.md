@@ -8,3 +8,10 @@
 -- sass 설치.               `npm install sass`
 -- react-helmet-async 설치. `npm install react-helmet-async`
 -- swiper 설치.             `npm install swiper`
+
+## 깃 명령어
+
+1. git add .
+2. git status
+3. git commit -m "내가 적을 메세지"
+4. git push -u orgin main
