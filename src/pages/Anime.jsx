@@ -1,8 +1,9 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Anime = () => {
   return (
-    <div>Anime</div>
+    <Main>Anime</Main>
   )
 }
 

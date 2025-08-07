@@ -1,8 +1,9 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Music = () => {
   return (
-    <div>Music</div>
+    <Main>Music</Main>
   )
 }
 

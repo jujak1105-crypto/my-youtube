@@ -95,36 +95,36 @@
 }
 
 .header_sns{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 260px;
-    text-align: center;
-    padding: 15px 0 10px;
-    background-color: var(--black);
-    backdrop-filter: blur(10px);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 260px;
+	text-align: center;
+	padding: 15px 0 10px;
+	background-color: var(--black);
+	backdrop-filter: blur(10px);
 
-    li{
-        padding: 5px 7px;
-        display: inline-block;
-    }
+	li{
+		padding: 5px 7px;
+		display: inline-block;
+	}
 }
 
 @keyframes ani {
-    0% {
-        transform: rotate(0deg) scale(1);
-        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); /* 별 모양 */
-        background: linear-gradient(45deg, #FFB3BA, #FFDFBA, #FFFFBA, #BAFFC9, #BAE1FF, #D9BAFF, #FFBAFF);
-    }
-    50% {
-        transform: rotate(720deg) scale(0.8);
-        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-        background: linear-gradient(45deg, #FFBAFF, #D9BAFF, #BAE1FF, #BAFFC9, #FFFFBA, #FFDFBA, #FFB3BA);
-    }
-    100% {
-        transform: rotate(0deg) scale(1);
-        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-        background: linear-gradient(45deg, #FFB3BA, #FFDFBA, #FFFFBA, #BAFFC9, #BAE1FF, #D9BAFF, #FFBAFF);
-    }
+	0% {
+		transform: rotate(0deg) scale(1);
+		clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); /* 별 모양 */
+		background: linear-gradient(45deg, #FFB3BA, #FFDFBA, #FFFFBA, #BAFFC9, #BAE1FF, #D9BAFF, #FFBAFF);
+	}
+	50% {
+		transform: rotate(720deg) scale(0.8);
+		clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		background: linear-gradient(45deg, #FFBAFF, #D9BAFF, #BAE1FF, #BAFFC9, #FFFFBA, #FFDFBA, #FFB3BA);
+	}
+	100% {
+		transform: rotate(0deg) scale(1);
+		clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		background: linear-gradient(45deg, #FFB3BA, #FFDFBA, #FFFFBA, #BAFFC9, #BAE1FF, #D9BAFF, #FFBAFF);
+	}
 }
