@@ -1,0 +1,15 @@
+// 한줄 효과
+@mixin line-one {
+  overflow: hidden;
+  white-space: nowrap;  /* 줄바꿈 없이 한줄로 되게 */
+  text-overflow: ellipsis;
+}
+
+// 두줄 효과
+@mixin line($num) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $num;
+  -webkit-box-orient: vertical;
+}
