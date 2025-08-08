@@ -1,0 +1,9 @@
+.anime__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  justify-content: space-between;
+
+  .anime {
+    margin-bottom: 20px;
+  }
+}

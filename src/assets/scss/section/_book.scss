@@ -1,0 +1,9 @@
+.book__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  justify-content: space-between;
+
+  .book {
+    margin-bottom: 20px;
+  }
+}

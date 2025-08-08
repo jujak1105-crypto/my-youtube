@@ -3,7 +3,7 @@ import {musicText} from '../../data/music';
 import { Link } from 'react-router-dom';
 
 const Music = () => {
-  console.log(musicText);
+  // console.log(musicText);
   return (
     <section id='music'>
       <h2>💕추천 음악을 소개합니다.</h2>
