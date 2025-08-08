@@ -64,23 +64,29 @@
   }
 
   @media (max-width:1200px){
-  .today__inner{
-    flex-direction: column;
+    .today__inner{
+      flex-direction: column;
 
-    .today__thumb{
-      width: 100%;
-    }
-    .today__text{
-      width: 100%;
-
-      .title{
-        font-size: 25px
+      .today__thumb{
+        width: 100%;
       }
+      .today__text{
+        width: 100%;
 
-      .desc{
-        display: none;
+        .title{
+          font-size: 25px
+        }
+
+        .desc{
+          display: none;
+        }
       }
     }
   }
 }
+
+@media (max-width: 800px) {
+  #todayPage {
+    margin-top: 80px;
+  }
 }

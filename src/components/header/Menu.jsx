@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom'
 const Menu = () => {
 
 const location = useLocation();
-console.log(location);
+// console.log(location);
 return (
 	<nav className='header_menu'>
 		<ul className='menu'>
