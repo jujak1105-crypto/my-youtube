@@ -64,7 +64,7 @@ const Music = ({videos, title, id}) => {
           videos.map((music, key)=>(
             <SwiperSlide key={key}>
             <div className='music' key={key}>
-              <div className='music__img play_icon'>
+              <div className='music__img play__icon'>
                 <Link to={`/channel/${music.channelId}`}>
                   <img src={music.img} alt={music.name} />
                 </Link>

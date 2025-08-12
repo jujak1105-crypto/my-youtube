@@ -9,7 +9,7 @@ const Movie = () => {
       <div className='video__inner'>
         {movieText.map((video, key)=>(
           <div className='video' key={key}>
-            <div className='video__thumb play_icon'>
+            <div className='video__thumb play__icon'>
               <Link to={`/video/${video.videoId}`}>
                 <img src={video.img} alt="" />
               </Link>

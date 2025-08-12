@@ -22,7 +22,7 @@ const Today = () => {
         <h2>😍추천 영상입니다.</h2>
         {todayText.map((today, key)=>(
           <div className='today__inner' key={key}>
-            <div className='today_today__thumbthumb play_icon'>
+            <div className='today_today__thumbthumb play__icon'>
               <Link to={today.page}>
                 <img src={today.img} alt={today.title} />
               </Link>

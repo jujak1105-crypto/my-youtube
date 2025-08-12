@@ -55,7 +55,7 @@ const VideoSlider = ({id, title, videos}) => {
         {videos.map((video, key)=>(
           <SwiperSlide key={key}>
             <div className='video' key={key}>
-              <div className='video__thumb play_icon'>
+              <div className='video__thumb play__icon'>
                 <Link to={`/video/${video.videoId}`}>
                   <img src={video.img} alt={video.title} />
                 </Link>

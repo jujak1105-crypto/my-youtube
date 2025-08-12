@@ -17,7 +17,7 @@ const Today = ({videos, id}) => {
   return (
     <section id={id} className={todayClass}>
       <div className='today_inner'>
-        <div className='today_thumb play_icon'>
+        <div className='today_thumb play__icon'>
           <Link to={videos[0].page}>
             <img src={videos[0].img} alt={videos[0].title} />
           </Link>

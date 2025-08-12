@@ -9,7 +9,7 @@ const Book = () => {
       <div className='video__inner'>
         {BookText.map((book, key)=>(
           <div className='video' key={key}>
-            <div className='video__thumb play_icon'>
+            <div className='video__thumb play__icon'>
               <Link to={`/book/${book.videoId}`}>
                 <img src={book.img} alt="" />
               </Link>

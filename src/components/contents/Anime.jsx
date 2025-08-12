@@ -9,7 +9,7 @@ const Anime = () => {
       <div className='anime__inner'>
         {AnimeText.map((anime, key)=>(
           <div className='anime' key={key}>
-            <div className='anime__thumb play_icon'>
+            <div className='anime__thumb play__icon'>
               <Link to={`/anime/${anime.videoId}`}>
                 <img src={anime.img} alt="" />
               </Link>
