@@ -1,13 +1,24 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Main from '../components/section/Main'
 import { todayText } from '../data/today'
 import { Link } from 'react-router-dom'
 
 
 const Today = () => {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      setLoading(false);
+    }, 300);
+  }, []);
+
+  const todayClass = loading ? 'isLoading' : 'isLoaded';
+
   return (
     <Main>
-      <section id='todayPage'>
+      <section id='todayPage' className={todayClass}>
         <h2>😍추천 영상입니다.</h2>
         {todayText.map((today, key)=>(
           <div className='today__inner' key={key}>

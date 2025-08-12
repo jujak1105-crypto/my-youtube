@@ -1,52 +1,74 @@
-.music__inner {
-  display: flex;
-  flex-wrap: wrap;
+.music__inner{
+    display: flex;
+    flex-wrap: wrap;
 
-  &.overflow {
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-  }
-
-  .music {
-    margin-right: 20px;
-
-    .music__img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      overflow: hidden;
-      margin-bottom: 10px;
+    &.overflow{
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
     }
-    .music__info {
-      width: 150px;
-      text-align: center;
-      @include line-one;
-      padding-bottom: 40px;
+
+    .music{
+        // margin-right: 20px;
+
+        .music__img{
+            // width: 150px;
+            // height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .music__info{
+            // width: 150px;
+            text-align: center;
+            @include line-one;
+            // padding-bottom: 40px;
+        }
     }
-  }
 }
 
-@media (max-width: 1200px) {
-  .music__inner {
-    justify-content: center;
-
-    .music {
-      .music__img {
-        width: 130px;
-        height: 130px;
-        margin: 0 auto;
-      }
-
-      .music__info {
-
-      }
+#musicPage {
+    .music__inner {
+        .music {
+            margin-right: 20px;
+        }
+        .music__img {
+            width: 150px;
+            height: 150px;
+        }
+        .music__info {
+            width: 150px;
+            padding-bottom: 40px;
+        }
     }
-  }
 }
 
-@media (max-width: 800px) {
-  .music__inner {
-    margin-top: 70px;
-  }
+
+    @media (max-width:1200px){
+        #musicPage{
+        .music__inner{
+            justify-content: center;
+            
+
+            .music{
+                margin-right: 0;
+                .music__img{
+                    width: 130px;
+                    height: 130px;
+                    margin: 10px auto;
+                }
+            }
+        }
+    }
 }
+
+
+    @media (max-width:800px){
+        #musicPage{
+        .music__inner{
+            margin-top: 70px;
+        }
+    }
+}
+    
+
